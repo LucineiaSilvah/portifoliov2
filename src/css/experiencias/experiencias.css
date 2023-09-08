@@ -1,0 +1,14 @@
+.experiencias{
+padding: 3rem;
+display: flex;
+align-items: center;
+flex-direction: column;
+
+
+}
+@media screen and (min-width:0) {
+  .experiencias__lista{
+   padding:1rem;
+  }
+
+}

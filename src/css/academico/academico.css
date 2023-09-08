@@ -1,0 +1,17 @@
+.academico{
+
+display: flex;
+flex-direction: column;
+}
+@media screen and (min-width:0) {
+    .academico{
+      padding:0;
+     
+    }
+}
+@media screen and (min-width:768px) {
+  .academico{
+    padding: 3rem;
+
+  }
+}

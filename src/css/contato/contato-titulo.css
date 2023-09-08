@@ -1,0 +1,14 @@
+.contato__titulo{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+@media screen and  (min-width:0){
+    .contato__titulo{
+  margin-bottom: 2%;
+  }
+}
+@media screen and  (min-width:768px){
+    .contato__titulo{
+  margin-bottom: 0;
+  }
+}

@@ -1,0 +1,54 @@
+:root{
+    --branco : #ffff;
+    --brancoleve : #f6eff7e6;
+    --bg-claro : #eed1f5;
+    --bg-escuro :  #560b7b;
+    --preto-leve: #464646;
+    --cinza:  #e7e6e6;
+    --fonteRelewey:'Raleway', sans-serif;
+    --fontAss : 'stringline'
+}
+
+@font-face {
+    font-family: stringline;
+
+    src: url(/src/stringline/Stringline.ttf)
+
+ }
+  .ass{
+    font-family: stringline;
+    
+  }
+body{
+    font-family: var(--fonteRelewey);
+    background-color: var(--brancoleve);
+    
+}
+input, textarea{
+    outline: 0;
+  }
+  input:focus {
+  
+    color:var(--bg-escuro);
+  }
+@media screen and (min-width:0) {
+    #container{
+     font-size: 1em;
+    } 
+}
+@media screen and (min-width:768px) {
+    #container{
+     font-size: 1.2em;
+    } 
+}
+.sobre, .academico, .contato{
+    background-color: var(--bg-claro);
+    
+    
+} 
+ul button a{
+    color:var(--bg-escuro);
+}
+
+
+

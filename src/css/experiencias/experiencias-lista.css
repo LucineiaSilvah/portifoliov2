@@ -1,0 +1,30 @@
+.experiencias__lista{
+    display: flex;
+    flex-direction: column;
+   
+ 
+} 
+.experiencias__lista li{
+    display: flex;
+    padding: 5rem 0;
+    align-items: center;
+
+    
+}
+@media screen and (min-width:0) {
+    .experiencias__lista li{
+      flex-direction: column;
+    }
+  
+   
+      
+   }
+   @media screen and (min-width:768px) {
+    .experiencias__lista li{
+      flex-direction: row;
+    }
+  
+   
+      
+   }
+  

@@ -1,0 +1,40 @@
+.experiencias__botao{
+    
+    margin-top: 2%;
+        max-width: 200px;
+        box-sizing: content-box;
+        border: 1px solid var(--bg-escuro);
+        color: var(--bg-escuro);
+        
+    
+}
+.experiencias__botao--demo{
+    background: var(--bg-escuro);
+    color: var(--branco);
+   
+    margin-left: 1%;
+}
+.experiencias__botao--demo a{
+    background: var(--bg-escuro);
+    color: var(--branco);
+   
+    margin-left: 1%;
+}
+@media screen and (min-width:0) {
+    .experiencias__botao{
+        width:100px;
+        height: 40px;
+       
+        
+    
+} 
+}
+@media screen and (min-width:768px) {
+    .experiencias__botao{
+        width:140px;
+        height: 50px;
+       
+        
+    
+} 
+}

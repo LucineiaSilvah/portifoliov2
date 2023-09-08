@@ -1,0 +1,20 @@
+.experiencias__imagem{
+   
+   box-shadow: -1px 4px 2px ;
+}
+@media screen and (min-width:0) {
+    .experiencias__imagem{
+   width: 100%;
+    }
+  
+   
+      
+   }
+   @media screen and (min-width:768px) {
+    .experiencias__imagem{
+        width: 40%;
+    }
+  
+   
+      
+   }

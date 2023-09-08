@@ -1,0 +1,20 @@
+.boas-vindas__imagem{
+  
+    border-radius: 100%;
+    background: url('/src/img/luh1.jpg') no-repeat center / cover;
+}
+@media screen and (min-width:0) {
+    .boas-vindas__imagem{
+      width: 150px;
+      height: 150px; 
+      margin-left: 2.5%; 
+    }
+}
+@media screen and (min-width:768px) {
+  .boas-vindas__imagem{
+    width:300px;
+    height: 300px; 
+    margin: 0;
+    
+  }
+}

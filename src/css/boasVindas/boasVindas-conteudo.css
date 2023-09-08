@@ -1,0 +1,26 @@
+.boas-vindas__conteudo{
+    display: flex;
+    flex-direction: column;
+  
+   
+    justify-content: space-around;
+}
+@media screen and (min-width:0) {
+    .boas-vindas__conteudo{
+        width:95%;
+       margin: auto;
+        padding:0;
+        height: 40vh;
+    }
+}
+@media screen and (min-width:768px) {
+    .boas-vindas__conteudo{
+       width: 60%;
+      margin: 3rem 0;
+        padding: 3rem 0;
+        height: 30vh;
+        
+    
+       
+    }
+}

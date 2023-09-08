@@ -1,0 +1,10 @@
+@media screen and  (min-width:0){
+  .contato__imagem{
+  display: none;
+    }
+}
+@media screen and  (min-width:992px){
+  .contato__imagem{
+  display: block;
+    }
+}

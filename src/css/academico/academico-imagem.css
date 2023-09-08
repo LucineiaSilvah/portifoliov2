@@ -1,0 +1,33 @@
+.academico__imagem{
+    background: var(--branco) ;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.academico__imagem img{
+    width:250px;
+    padding: 1rem;
+    
+}
+@media screen and (min-width:0) {
+    .academico__imagem {
+        width:70%; 
+        margin: auto;
+       }
+    .academico__imagem img{
+     width: 150px; 
+    }
+}
+@media screen and (min-width:768px) {
+  .academico__imagem{
+   width: auto;
+
+  }
+  .academico__imagem img{
+    width: 250px; 
+   }
+}

@@ -1,0 +1,31 @@
+.academico__lista{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+@media screen and (min-width:0) {
+  .academico__lista{
+    width: 100%;
+    flex-direction: column;
+  }
+  .academico__lista li{
+   width: 95%;
+   padding: 2rem;
+   
+    
+ }
+}
+@media screen and (min-width:768px) {
+    .academico__lista{
+      width: 100%;
+      flex-direction: row;
+    }
+    .academico__lista li{
+     width: 95%;
+     padding: 2rem;
+     
+      
+   }
+  }

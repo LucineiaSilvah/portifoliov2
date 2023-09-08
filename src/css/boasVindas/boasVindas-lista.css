@@ -1,0 +1,19 @@
+.boas-vindas__lista{
+    display: flex;
+    gap: 4%;
+
+
+}
+.boas-vindas__lista li{
+    background: url('/src/img/arrow_back_black_24dp\ 1.svg') no-repeat right center;
+    flex-basis: 90px;
+}
+@media screen and (min-width:0) {
+    .boas-vindas__lista{
+       gap: 1%;
+    }
+    .boas-vindas__lista li{
+       margin-top: 10px;
+    }
+    
+}

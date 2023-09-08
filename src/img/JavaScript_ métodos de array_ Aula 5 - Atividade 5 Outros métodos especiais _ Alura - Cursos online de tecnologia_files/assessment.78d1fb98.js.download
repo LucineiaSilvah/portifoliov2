@@ -1,0 +1,1 @@
+"use strict";for(var courseRatingDecimalPart=(courseRatingFloat=parseFloat($(".assesments-content-correctnessGrade").text()))%1,courseRatingFloat=parseInt(courseRatingFloat),starsList=$(".assesments-content-stars"),i=0;i<courseRatingFloat;i++)starsList.append('<li class="full-star">'),courseRatingFloat-1==i&&.4<=courseRatingDecimalPart&&starsList.append('<li class="half-star">');

@@ -1,0 +1,13 @@
+.contato{
+    display: flex;
+}
+@media screen and  (min-width:0){
+    .contato{
+    padding: 1rem;
+      }
+  }
+  @media screen and  (min-width:768px){
+    .contato{
+        padding: 3rem;
+      }
+  }

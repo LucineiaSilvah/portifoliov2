@@ -1,0 +1,17 @@
+.experiencias__info{
+    padding: 1rem;
+}
+@media screen and (min-width:0) {
+    .experiencias__info{
+     display: flex;
+     width: 100%;
+     flex-direction: column;
+     height: 100px;
+       
+        
+    
+} 
+}
+@media screen and (min-width:768px) {
+    
+}

@@ -1,0 +1,21 @@
+.academico__info p{
+font-weight: bold;
+}
+.academico__info p ~p{
+font-weight: 300;
+}
+@media screen and  (min-width:0){
+  .academico__info{
+ 
+    width:100%;
+    margin: auto;
+  }
+  .academico__info p{
+    padding: 0.10rem 0 0 4rem;
+    }
+}
+@media screen and  (min-width:768px){
+  .academico__info p{
+    padding: 0.10rem ;
+    }
+}

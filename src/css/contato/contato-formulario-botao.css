@@ -1,0 +1,5 @@
+.contato_formulario--botao{
+    max-width: 200px;
+    background: var(--bg-escuro);
+    color: var(--branco);
+}

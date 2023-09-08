@@ -1,0 +1,1 @@
+"use strict";!function(a){$(".buttonFeedback").on("click",function(){var t=$(this).data("feedback");a.submitAnswer(n,t)});var e=$(".task"),r=e.data("course-code"),c=e.data("task-id"),i=e.data("url-prefix");function n(){var t="repetition"!=e.data("task-type")?i+"course/"+r+"/task/"+c+"/next":$(location).attr("href");$(location).attr("href",t)}}(Task);

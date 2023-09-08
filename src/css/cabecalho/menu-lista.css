@@ -1,0 +1,37 @@
+.menu__lista{
+    display: flex;
+  
+    
+}
+
+@media screen and (min-width:0) {
+    .menu__lista{
+       
+      align-items: center;
+    
+     
+    }
+    .menu__lista li{
+        display: none;
+    }
+    .menu__lista li:last-child{
+        display: block;
+        font-weight: bold;
+        box-sizing: border-box;
+        padding-right: 0.5rem;
+    }
+}
+@media screen and (min-width:768px) {
+    .menu__lista{
+        padding:  0;        
+        justify-content: space-around;
+    }
+    .menu__lista li{
+        display: block;
+
+ 
+     padding: 1.5rem 0.4rem;
+    }
+   
+    
+}

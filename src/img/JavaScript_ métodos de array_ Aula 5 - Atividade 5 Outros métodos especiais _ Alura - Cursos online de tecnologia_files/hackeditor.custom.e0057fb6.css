@@ -1,0 +1,175 @@
+.editor-toolbar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.editor-toolbar button {
+    width: 30px;
+}
+
+@media (max-width: 640px) {
+    .editor-toolbar i.separator {
+        display: none;
+    }
+}
+
+.editor-toolbar .hackeditor-icon {
+    position: relative;
+    margin: 0 0.5em;
+    outline: none;
+}
+
+.editor-toolbar .hackeditor-icon::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    filter: opacity(0.5);
+}
+.editor-toolbar .hackeditor-icon:hover::before {
+    filter: opacity(0.8);
+}
+
+.hackeditor-icon.icon-title::before{
+    content: url("/assets/images/hackeditor/icon-title.svg");
+}
+
+.hackeditor-icon.icon-bold::before{
+    content: url("/assets/images/hackeditor/icon-bold.svg");
+}
+
+.hackeditor-icon.icon-italic::before{
+    content: url("/assets/images/hackeditor/icon-italic.svg");
+}
+
+.hackeditor-icon.icon-ordered-list::before{
+    content: url("/assets/images/hackeditor/icon-ordered-list.svg");
+}
+
+.hackeditor-icon.icon-unordered-list::before{
+    content: url("/assets/images/hackeditor/icon-unordered-list.svg");
+}
+
+.hackeditor-icon.icon-table::before{
+    content: url("/assets/images/hackeditor/icon-table.svg");
+}
+
+.hackeditor-icon.icon-code::before{
+    content: url("/assets/images/hackeditor/icon-code.svg");
+}
+
+.hackeditor-icon.icon-link::before{
+    content: url("/assets/images/hackeditor/icon-link.svg");
+}
+
+.hackeditor-icon.icon-image::before{
+    content: url("/assets/images/hackeditor/icon-image.svg");
+}
+
+.hackeditor-icon.icon-upload-image::before{
+    /* TODO: Esse é um icone temporario, mudar quando tivermos o novo */
+    content: url("/assets/images/hackeditor/icon-upload-image.svg");
+}
+
+.hackeditor-icon.icon-undo::before{
+    content: url("/assets/images/hackeditor/icon-edit-undo.svg");
+}
+
+.hackeditor-icon.icon-redo::before{
+    content: url("/assets/images/hackeditor/icon-edit-redo.svg");
+}
+
+.hackeditor-icon.icon-preview::before{
+    content: url("/assets/images/hackeditor/icon-preview.svg");
+}
+
+.hackeditor .CodeMirror-wrap,
+.hackeditor-preview {
+    padding: 1.2rem;
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: inherit;
+    color: #4c555b;
+}
+
+.hackeditor-preview p{
+    margin: .5rem 0;
+}
+
+.hackeditor-preview h1 {
+    font-size: 1.6em;
+}
+
+.hackeditor-preview h2 {
+    font-size: 1.5em;
+}
+
+.hackeditor-preview h3 {
+    font-size: 1.4em;
+}
+
+.hackeditor-preview h4 {
+    font-size: 1.3em;
+}
+
+.hackeditor-preview h5,
+.hackeditor-preview h6{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.hackeditor-preview ul,
+.hackeditor-preview ol{
+    margin: 1rem 0.5rem;
+}
+
+.hackeditor-preview ul{
+    list-style: initial;
+}
+
+.hackeditor-preview li {
+    margin: .5rem;
+}
+
+.hackeditor-preview table {
+    border-collapse: collapse;
+    margin: .5rem 0;
+}
+
+.hackeditor-preview table,
+.hackeditor-preview table td,
+.hackeditor-preview table tr {
+    border: 1px solid #ddd;
+    padding: 0 0.5em;
+}
+
+.hackeditor-preview th {
+    font-weight: bold;
+    border: 1px solid #bbb;
+    padding: 0 0.5em;
+}
+
+.hackeditor-preview thead {
+    background-color: #eee;
+}
+
+.hackeditor .CodeMirror-scroll {
+    height: auto;
+}
+.editor-statusbar .upload-image{
+    font-weight: bold;
+}
+
+.editor-statusbar .character-counter {
+    font-size: 0.88rem;
+}
+
+.character-counter.disabled {
+    display: none;
+}
+
+.character-counter.max-length-reached {
+    color: #DA5D5D;
+}

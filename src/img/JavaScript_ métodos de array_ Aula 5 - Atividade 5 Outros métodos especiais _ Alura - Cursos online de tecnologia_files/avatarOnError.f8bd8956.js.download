@@ -1,0 +1,1 @@
+"use strict";window.addEventListener("error",function(t){var r,t=t.target,s=t.src;/github\.com\/.*\.png.*/.exec(s)&&(s.startsWith("https://")||s.startsWith("http://")||s.startsWith("//")?(r=new URLSearchParams(s),t.src=r.get("d")):t.src="https://"+s)},!0);
