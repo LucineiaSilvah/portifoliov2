@@ -20,6 +20,11 @@
    
     margin-left: 1%;
 }
+.vejaMais a{
+    font-weight: bold;
+    line-height: 2rem;
+    color: var(--bg-escuro);
+}
 @media screen and (min-width:0) {
     .experiencias__botao{
         width:100px;
