@@ -21,7 +21,7 @@
   }
 body{
     font-family: var(--fonteRelewey);
-    background-color: var(--brancoleve);
+    background:var(--brancoleve) url('/src/img/bgpixel.jpg')no-repeat center / cover;
     
 }
 input, textarea{
