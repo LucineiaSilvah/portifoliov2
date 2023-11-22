@@ -5,6 +5,7 @@
     --bg-escuro :  #560b7b;
     --preto-leve: #464646;
     --cinza:  #e7e6e6;
+    
     --fonteRelewey:'Raleway', sans-serif;
     --fontAss : 'stringline'
 }
@@ -21,7 +22,9 @@
   }
 body{
     font-family: var(--fonteRelewey);
+   
     background:var(--brancoleve) 
+
     
 }
 input, textarea{
@@ -30,6 +33,28 @@ input, textarea{
   input:focus {
   
     color:var(--bg-escuro);
+  }
+  main{
+    overflow: hidden;
+    position: relative;
+  }
+  .fa-jet-fighter-up{
+    position: fixed;
+    scale: 1.5;
+    right: 1rem;
+    text-shadow: 0px 6px 4px black;
+    animation: animar 3s infinite ease-in-out;
+  }
+  @keyframes animar {
+    0%{
+      top: 40%;
+    }
+    50%{
+      top: 45% ;
+    }
+    100%{
+      top: 40%
+    }
   }
 @media screen and (min-width:0) {
     #container{

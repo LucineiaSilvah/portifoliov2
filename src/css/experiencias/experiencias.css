@@ -3,8 +3,8 @@ padding: 3rem;
 display: flex;
 align-items: center;
 flex-direction: column;
-color: var(--branco);
-background:  url('/src/img/bgpixel.jpg')no-repeat center / cover;;
+
+
 
 }
 @media screen and (min-width:0) {

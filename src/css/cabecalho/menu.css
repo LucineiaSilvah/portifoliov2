@@ -2,6 +2,21 @@
     display: flex;
    
 }
+.menu a:hover{
+    width: 5px;
+animation: hoverAnimar 1s infinite;
+ 
+}
+@keyframes hoverAnimar {
+    from{
+        border-bottom: 2px solid white;
+    }
+
+    to{
+        border-bottom: 2px solid 
+      purple
+    }
+}
 @media screen and (min-width:0) {
     .menu{
   
