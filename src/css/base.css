@@ -5,7 +5,7 @@
     --bg-escuro :  #560b7b;
     --preto-leve: #464646;
     --cinza:  #e7e6e6;
-    
+    --fontPixel : 'Pixelify Sans', sans-serif;
     --fonteRelewey:'Raleway', sans-serif;
     --fontAss : 'stringline'
 }
@@ -21,7 +21,7 @@
     
   }
 body{
-    font-family: var(--fonteRelewey);
+    font-family: var(--fontPixel);
    
     background:var(--brancoleve) 
 

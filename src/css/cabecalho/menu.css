@@ -29,7 +29,7 @@ animation: hoverAnimar 1s infinite;
 @media screen and (min-width:768px) {
     .menu{
        
-        justify-content: space-between;
+        justify-content: space-around;
    
      
     }

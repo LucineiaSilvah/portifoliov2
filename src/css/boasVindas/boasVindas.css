@@ -1,6 +1,6 @@
 .boas-vindas{
  display: flex;
-  
+ border-top: 2px dashed purple;
 
 }
 @media screen and (min-width:0) {
