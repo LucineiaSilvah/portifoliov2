@@ -664,17 +664,25 @@
               src="src/img/unsplash_JYGnB9gTCls.png"
               alt=""
             />
-            <form action="https://formsubmit.co/lucineia.rsilvah@gmail.com" method="POST"class="contato__formulario">
+            
+            </form>
+            <form action="https://api.staticforms.xyz/submit" method="POST" class="contato__formulario">
               <h3 class="contato__titulo">Contato</h3>
               <p>Quer entrar em contato comigo?</p>
               <p>
                 Preencha o formulário ao lado que entrarei em contato o mais
                 rápido possivel.
               </p>
+             <input type="hidden" name="accessKey" value="1172f2e6-1454-47eb-9ffa-526735fdbf6e"> 
+             <input type="hidden" name="subject" value="Contact us from - example.com" /> 
+             <input type="hidden" name="replyTo" value="@"> 
+             <input type="hidden" name="redirectTo" value="https://example.com/contact/success"> 
+            
+ 
               <label for="nome">Nome</label>
               <input
                 type="text"
-                name="nome"
+                name="name"
                 id="nome"
                 placeholder="seu nome aqui..."
               />
@@ -693,6 +701,8 @@
                 placeholder="digite aqui seu assunto"
               />
               <textarea
+
+               name="message" 
                 rows="10"
                 cols=""
                 placeholder=" Digite aqui a sua Mensagem"
