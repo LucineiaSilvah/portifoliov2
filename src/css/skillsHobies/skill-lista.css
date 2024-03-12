@@ -3,7 +3,7 @@
     justify-content: space-around;
     flex-direction: row; 
     flex-wrap: wrap;
-
+    color: black;
 }
 .skills__lista li{
     background:var(--branco);

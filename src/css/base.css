@@ -5,9 +5,11 @@
     --bg-escuro :  #560b7b;
     --preto-leve: #464646;
     --cinza:  #e7e6e6;
+    --darkbg:#18021c36;
+    
     --fontPixel : 'Pixelify Sans', sans-serif;
     --fonteRelewey:'Raleway', sans-serif;
-    --fontAss : 'stringline'
+    --fontAss : 'stringline';
 }
 
 @font-face {
@@ -44,6 +46,15 @@ input, textarea{
     right: 1rem;
     text-shadow: 0px 6px 4px black;
     animation: animar 3s infinite ease-in-out;
+  }
+  #theme{
+    top: 50px;
+    left: 50px;
+    position: absolute;
+  }
+  .dark{
+   background:black;
+   color: var(--branco);
   }
   @keyframes animar {
     0%{
