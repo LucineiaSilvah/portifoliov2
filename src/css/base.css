@@ -1,90 +1,85 @@
-:root{
-    --branco : #ffff;
-    --brancoleve : #f6eff7e6;
-    --bg-claro : #490a5636;
-    --bg-escuro :  #560b7b;
-    --preto-leve: #464646;
-    --cinza:  #e7e6e6;
-    --darkbg:#18021c36;
-    
-    --fontPixel : 'Pixelify Sans', sans-serif;
-    --fonteRelewey:'Raleway', sans-serif;
-    --fontAss : 'stringline';
+:root {
+  --branco: #ffff;
+  --brancoleve: #f6eff7e6;
+  --bg-claro: #490a5636;
+  --bg-escuro: #560b7b;
+  --preto-leve: #464646;
+  --cinza: #e7e6e6;
+  --darkbg: #18021c36;
+
+  --fontPixel: "Pixelify Sans", sans-serif;
+  --fonteRelewey: "Raleway", sans-serif;
+  --fontAss: "stringline";
 }
 
 @font-face {
-    font-family: stringline;
+  font-family: stringline;
 
-    src: url(/src/stringline/Stringline.ttf)
+  src: url(/src/stringline/Stringline.ttf);
+}
+.ass {
+  font-family: stringline;
+}
+body {
+  font-family: var(--fonteRelewey);
 
- }
-  .ass{
-    font-family: stringline;
-    
-  }
-body{
-    font-family: var(--fonteRelewey);
-   
-    background:var(--brancoleve) 
-
-    
+  background: var(--brancoleve);
 }
-input, textarea{
-    outline: 0;
-  }
-  input:focus {
-  
-    color:var(--bg-escuro);
-  }
-  main{
-    overflow: hidden;
-    position: relative;
-  }
-  .fa-jet-fighter-up{
-    position: fixed;
-    scale: 1.5;
-    right: 1rem;
-    text-shadow: 0px 6px 4px black;
-    animation: animar 3s infinite ease-in-out;
-  }
-  #theme{
-    top: 50px;
-    left: 50px;
-    position: absolute;
-  }
-  .dark{
-   background:black;
-   color: var(--branco);
-  }
-  @keyframes animar {
-    0%{
-      top: 40%;
-    }
-    50%{
-      top: 45% ;
-    }
-    100%{
-      top: 40%
-    }
-  }
-@media screen and (min-width:0) {
-    #container{
-     font-size: 1em;
-    } 
+input,
+textarea {
+  outline: 0;
 }
-@media screen and (min-width:768px) {
-    #container{
-     font-size: 1.2em;
-    } 
+input:focus {
+  color: var(--bg-escuro);
 }
-.sobre, .academico, .contato{
-    background-color: var(--bg-claro);
-    
-    
-} 
-ul button a{
-    color:var(--bg-escuro);
+main {
+  overflow: hidden;
+  position: relative;
+}
+.fa-jet-fighter-up {
+  position: fixed;
+  scale: 1.5;
+  right: 1rem;
+  text-shadow: 0px 6px 4px black;
+  animation: animar 3s infinite ease-in-out;
+}
+#theme {
+  top: 15px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.dark {
+  background: black;
+  color: var(--branco);
+}
+@keyframes animar {
+  0% {
+    top: 40%;
+  }
+  50% {
+    top: 45%;
+  }
+  100% {
+    top: 40%;
+  }
+}
+@media screen and (min-width: 0) {
+  #container {
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 768px) {
+  #container {
+    font-size: 1.2em;
+  }
 }
 
-
-
+.sobre,
+.academico,
+.contato {
+  background-color: var(--bg-claro);
+}
+ul button a {
+  color: var(--bg-escuro);
+}

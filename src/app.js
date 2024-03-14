@@ -6,6 +6,7 @@ const plus = document.getElementById('plus')
 const lista = document.getElementById('lista')
 const mode = document.getElementById('theme')
 
+
 theme.addEventListener('click',()=>{
   document.body.classList.toggle('dark')
 })
