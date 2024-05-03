@@ -1,5 +1,14 @@
 [
   {"destaque":[
+     {
+    "imagem":"/src/img/petshop.png",
+    "titulo":"Só Amores Petshop",
+    "descricao":"Projeto Pessoal",
+    "tech":"Techs:HTML5 | CSS3 | REACT",
+    "repo":"https://github.com/LucineiaSilvah/petshop",
+    "demo":"https://petshop-sooty.vercel.app/"
+   }
+ ,
    {
     "imagem":"/src/img/ang-pro.png",
     "titulo":"Mortal Figther",
