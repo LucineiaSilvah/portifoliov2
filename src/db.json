@@ -101,6 +101,15 @@
    }
    ,
   {
+    "imagem":"/src/img/digimon.png",
+    "titulo":"Digimon Fetch",
+    "descricao":"Projeto Pessoal",
+    "tech":"Techs: HTML CSS JS",
+    "repo":"https://github.com/LucineiaSilvah/digimon",
+    "demo":"https://digimonfetch.netlify.app/"
+   }
+   ,
+  {
     "imagem":"/src/img/r3.png",
     "titulo":"Regra de 3 simple",
     "descricao":"Projeto Pessoal",
