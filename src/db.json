@@ -92,6 +92,15 @@
 ]},
   {"plus":[
   {
+    "imagem":"/src/img/clima.png",
+    "titulo":"Previão do tempo",
+    "descricao":"Projeto Pessoal",
+    "tech":"Techs: HTML CSS JS",
+    "repo":"https://github.com/LucineiaSilvah/previsao-tempo",
+    "demo":"https://creative-pasca-acad28.netlify.app/"
+   }
+   ,
+  {
     "imagem":"/src/img/r3.png",
     "titulo":"Regra de 3 simple",
     "descricao":"Projeto Pessoal",
