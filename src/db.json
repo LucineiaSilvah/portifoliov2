@@ -20,11 +20,20 @@
  ,
   {
     "imagem":"/src/img/bz.png",
-    "titulo":"Projeto estilo Buzzfeed",
-    "descricao":"Techs:TS|ANGULAR|CSS",
+    "titulo":"Projeto Buzzfeed",
+    "descricao":"Projeto estilo buzzfeed",
     "tech":"Techs:TS|ANGULAR|CSS",
     "repo":"https://github.com/LucineiaSilvah/angular-buzzfeed",
     "demo":"https://angular-buzzfeed-three.vercel.app/"
+  }
+ ,
+  {
+    "imagem":"/src/img/bz.png",
+    "titulo":"Lista tarefas em React",
+    "descricao":"LISTA DE TAREFA SIMPLES EM REACT",
+    "tech":"Techs:HTML|REACT|CSS",,
+    "repo":"https://github.com/LucineiaSilvah/lista-de-tarefas",
+    "demo":"https://lista-de-tarefas-two-cyan.vercel.app/"
   }
   ,
   {
