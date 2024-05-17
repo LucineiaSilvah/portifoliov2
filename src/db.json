@@ -28,7 +28,7 @@
   }
  ,
   {
-    "imagem":"/src/img/bz.png",
+    "imagem":"/src/crud.png",
     "titulo":"Lista tarefas em React",
     "descricao":"LISTA DE TAREFA SIMPLES EM REACT",
     "tech":"Techs:HTML|REACT|CSS",,
