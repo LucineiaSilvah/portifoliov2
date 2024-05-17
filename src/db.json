@@ -31,7 +31,7 @@
     "imagem":"/src/crud.png",
     "titulo":"Lista tarefas em React",
     "descricao":"LISTA DE TAREFA SIMPLES EM REACT",
-    "tech":"Techs:HTML|REACT|CSS",,
+    "tech":"Techs:HTML|REACT|CSS",
     "repo":"https://github.com/LucineiaSilvah/lista-de-tarefas",
     "demo":"https://lista-de-tarefas-two-cyan.vercel.app/"
   }
