@@ -28,6 +28,15 @@
    }
  ,
   {
+    "imagem":"/src/img/cadastro.jpg",
+    "titulo":"Sistema de Cadastro",
+    "descricao":"Projeto Pessoal",
+    "tech":"Techs:PHP|HTML|CSS| MYSQL| APACHE",
+    "repo":"https://github.com/LucineiaSilvah/cadastro-php",
+    "demo":"http://sistemacadastro.kesug.com"
+   }
+ ,
+  {
     "imagem":"/src/img/bz.png",
     "titulo":"Projeto Buzzfeed",
     "descricao":"Projeto estilo buzzfeed",
