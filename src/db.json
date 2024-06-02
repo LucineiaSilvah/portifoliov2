@@ -9,6 +9,15 @@
     "demo":"https://petshop-sooty.vercel.app/"
    }
  ,
+    {
+    "imagem":"/src/img/ong.jpg",
+    "titulo":"Ipsom Ong",
+    "descricao":"Projeto Pessoal",
+    "tech":"Techs:HTML5 | CSS3 | REACT",
+    "repo":"https://github.com/LucineiaSilvah/ong",
+    "demo":"https://ong-beta.vercel.app/"
+   }
+ ,
    {
     "imagem":"/src/img/ang-pro.png",
     "titulo":"Mortal Figther",
