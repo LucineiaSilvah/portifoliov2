@@ -63,8 +63,7 @@
   }
   ,
     {
-    "imagem":"/src/img/IMG-20240809-WA0009.jpg
-      ",
+    "imagem":"/src/img/IMG-20240809-WA0009.jpg",
     "titulo":"Calculadore IMC em React",
     "descricao":"Projeto Desafio condante.io ",
     "tech":"Techs:HTML|REACT|CSS MODULE",
