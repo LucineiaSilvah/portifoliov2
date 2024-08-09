@@ -62,6 +62,16 @@
     "demo":"https://lista-de-tarefas-two-cyan.vercel.app/"
   }
   ,
+    {
+    "imagem":"/src/img/IMG-20240809-WA0009.jpg
+      ",
+    "titulo":"Calculadore IMC em React",
+    "descricao":"Projeto Desafio condante.io ",
+    "tech":"Techs:HTML|REACT|CSS MODULE",
+    "repo":"https://github.com/LucineiaSilvah/mp-calculadora-imc",
+    "demo":"https://mp-calculadora-imc-one.vercel.app/"
+  }
+  , 
   {
     "imagem":"/src/img/decode.png",
     "titulo":"Decodificador de texto",
