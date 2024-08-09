@@ -34,7 +34,15 @@
     "tech":"Techs:PHP|HTML|CSS| MYSQL| APACHE",
     "repo":"https://github.com/LucineiaSilvah/crud-php",
     "demo":"http://sistemacadastro.kesug.com"
-   }
+   },
+   {
+    "imagem":"/src/img/olimpiadas.png",
+    "titulo":"Projeto Olimpiadas Paris",
+    "descricao":"Hackathon Olimpiadas",
+    "tech":"Techs:REACT|CSS MODULE",
+    "repo":"https://github.com/LucineiaSilvah/angular-buzzfeed",
+    "demo":"https://mp-hackathon-olimpiadas-jrrx.vercel.app/"
+  }
  ,
   {
     "imagem":"/src/img/bz.png",
