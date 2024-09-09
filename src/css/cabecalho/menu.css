@@ -2,6 +2,9 @@
     display: flex;
    
 }
+.menu ul {
+    position: relative;
+}
 .menu a:hover{
     width: 5px;
 animation: hoverAnimar 1s infinite;
