@@ -28,12 +28,12 @@
    }
  ,
   {
-    "imagem":"/src/img/cadastro.jpg",
-    "titulo":"Sistema de Cadastro",
-    "descricao":"Projeto Pessoal",
-    "tech":"Techs:PHP|HTML|CSS| MYSQL| APACHE",
-    "repo":"https://github.com/LucineiaSilvah/crud-php",
-    "demo":"http://sistemacadastro.kesug.com"
+    "imagem":"/src/img/port.png",
+    "titulo":"Novo Portifolio",
+    "descricao":"Em Construção",
+    "tech":"Techs:REACT|HTML|CSS MODULE",
+    "repo":"https://github.com/LucineiaSilvah/portifolio-app/tree/master",
+    "demo":"https://portifolio-app-mu.vercel.app/"
    },
    {
     "imagem":"/src/img/IMG-20240809-WA0004.jpg",
